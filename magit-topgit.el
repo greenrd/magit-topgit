@@ -1,12 +1,12 @@
 ;;; magit-topgit.el --- TopGit extension for Magit
 
-;; Copyright (C) 2010-2014  The Magit Project Developers
+;; Copyright (C) 2010-2015  The Magit Project Contributors
 
 ;; Author: Yann Hodique <yann.hodique@gmail.com>
 ;; Maintainer: Jonas Bernoulli <jonas@bernoul.li>
 ;; Keywords: vc tools
 ;; Package: magit-topgit
-;; Package-Requires: ((cl-lib "0.5") (magit "2.1.0"))
+;; Package-Requires: ((emacs "24.4") (magit "2.1.0"))
 
 ;; Magit is free software; you can redistribute it and/or modify it
 ;; under the terms of the GNU General Public License as published by
