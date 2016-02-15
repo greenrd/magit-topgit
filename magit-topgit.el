@@ -108,7 +108,7 @@
 (defun magit-start-topgit (&optional input &rest args)
   (apply #'magit-start-process magit-topgit-executable input args))
 
-(defconst magit-topgit-topic-re "^\\(.\\{7\\}\\)\t\\([^ ]+\\) +\\(.*\\)")
+(defconst magit-topgit-topic-re "^\\(.\\{7\\}\\)\t\\([^ \t]+\\)[ \t]+\\(.*\\)")
 
 (defun magit-topgit-read-topic (prompt)
   (magit-completing-read
