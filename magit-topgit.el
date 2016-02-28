@@ -1,9 +1,9 @@
 ;;; magit-topgit.el --- TopGit extension for Magit
 
-;; Copyright (C) 2010-2015  The Magit Project Contributors
+;; Copyright (C) 2010-2016  The Magit Project Contributors
 
 ;; Author: Yann Hodique <yann.hodique@gmail.com>
-;; Maintainer: Jonas Bernoulli <jonas@bernoul.li>
+;; Maintainer: Robin Green <greenrd@greenrd.org>
 ;; Keywords: vc tools
 ;; Package: magit-topgit
 ;; Package-Requires: ((emacs "24.4") (magit "2.1.0"))
