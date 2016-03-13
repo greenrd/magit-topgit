@@ -35,6 +35,13 @@
 ;; a topic it can checked out using `RET' and discarded using `k'.
 ;; Other TopGit commands are available from the TopGit popup on `T'.
 
+;; TopGit popup on `T' shadows default magit-notes-popup on `T'.
+;; To rebind magit-notes-popup on `O':
+;;
+;;   (with-eval-after-load 'magit
+;;     (define-key magit-mode-map "O" 'magit-notes-popup)
+;;     (magit-change-popup-key 'magit-dispatch-popup :action ?T ?O))
+
 ;; To enable the mode in a particular repository use:
 ;;
 ;;   cd /path/to/repository
